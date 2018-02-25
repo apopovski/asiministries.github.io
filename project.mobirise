@@ -3,7 +3,7 @@
     "name": "ASI Newletter Feb. 2018",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 96,
+    "uniqCompNum": 99,
     "versionPublish": "4.6.3",
     "theme": {
       "name": "mobirise4",
@@ -288,31 +288,102 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".section-text": {
-              "padding": "2rem 0",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h2": {
               "text-align": "left"
             },
-            ".inner-container": {
-              "margin": "0 auto"
+            "h4": {
+              "text-align": "left",
+              "font-weight": "500"
             },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
+            "p": {
+              "color": "#767676",
+              "text-align": "left"
+            },
+            ".aside-content": {
+              "flex-basis": "100%"
+            },
+            ".block-content": {
+              "display": "-webkit-flex",
+              "flex-direction": "column",
+              "-webkit-flex-direction": "column",
+              "word-break": "break-word"
+            },
+            ".media": {
+              "margin": "initial",
+              "align-items": "center"
+            },
+            ".mbr-figure": {
+              "align-self": "flex-start",
+              "-webkit-align-self": "flex-start",
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0"
+            },
+            ".card-img": {
+              "padding-right": "2rem",
+              "width": "auto"
+            },
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "#707070"
+            },
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "row-reverse"
+                }
               }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "padding-right": "0",
+                "padding-bottom": "1rem",
+                "margin-bottom": "2rem",
+                "& when (@reverseContent)": {
+                  "padding-bottom": "0",
+                  "margin-bottom": "0",
+                  "padding-top": "1rem",
+                  "margin-top": "2rem"
+                }
+              },
+              ".media-container-row": {
+                "& when (@reverseContent)": {
+                  "-webkit-flex-direction": "column-reverse"
+                }
+              }
+            },
+            "@media (max-width: 300px)": {
+              ".card-img span": {
+                "font-size": "40px !important"
+              }
+            },
+            ".mbr-text": {
+              "color": "#4f4943"
+            },
+            "H2": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#232323"
             }
           },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"75\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#cccccc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>... We are living in the last days of earth’s history and have been entrusted with the great commission to spread the gospel of Christ to the entire world. This is not an easy commission; we are not promised a trouble-free job. In John 16:33 Christ said, “These things I have spoken unto you, that in Me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.” Even though we may experience unusual troubles, we can have peace and good cheer because we know the final outcome. Jesus has overcome, and through His strength, we have the power to overcome.<div><br></div><div>We predict the weather by looking at the sky. We know summer is coming when we see the trees putting forth leaves. When we consider the abnormal things happening in the world around us, how can we not understand that the coming of Christ is near? Even the secular world has noticed the unusual nature of events, leaving many observers and scientists wondering what’s next.</div><div><br></div><div>Regarding faith, Jesus asks the following question in Luke 18:8: “Nevertheless, when the Son of Man cometh, shall He find faith on the earth?” When He spoke to Jairus concerning the news that his daughter had died, Jesus said, “Be not afraid, only believe.” To believe when the world is uncertain, antagonistic, and even mocking, takes unusual faith and courage.</div><div><br></div><div>Today, as never before, we can look at the challenges still remaining to spread the Gospel to every nation, kindred, tribe and people and see that humanly speaking, this is not an easy task. The Lord is calling us to unusual action. He is asking that we be willing to go for Him, to do for Him, and to sacrifice for Him. He has promised us that if we are faithful even unto death, He will give us a crown of life.</div><div><br></div><div>The question remains: are we willing and ready to go about God’s business in an unusual way? Or are we satisfied with the way things are? &nbsp;</div><div><br></div><div>ASI’s 2018 national convention in Orlando, Florida, will focus on Business Unusual. We hope and pray that you will consider joining us for unusual inspiration, unusual testimonies, and an unusual challenge.&nbsp;</div></div><p align=\"right\"><span style=\"font-size: 1.2rem; text-align: justify;\">&nbsp;</span><span style=\"font-size: 1.2rem; text-align: justify;\">&nbsp;</span><span style=\"; text-align: justify;\">– Steve Dickman&nbsp;</span><span style=\"font-size: 1.2rem; text-align: justify;\"></span><br></p>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_cid": "qKpnQn9k5e",
-          "_anchor": "content9-2d",
+          "_name": "features11",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"20\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/steve-dickman-asi-president.png\" alt=\"Mobirise\" title><font color font size=\"2\"><center>Steve Dickman</center></font>\n                    \n                   \n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">... We are living in the last days of earth’s history and have been entrusted with the great commission to spread the gospel of Christ to the entire world. This is not an easy commission; we are not promised a trouble-free job. In John 16:33 Christ said, “These things I have spoken unto you, that in Me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.” Even though we may experience unusual troubles, we can have peace and good cheer because we know the final outcome. Jesus has overcome, and through His strength, we have the power to overcome.<br><br>We predict the weather by looking at the sky. We know summer is coming when we see the trees putting forth leaves. When we consider the abnormal things happening in the world around us, how can we not understand that the coming of Christ is near? Even the secular world has noticed the unusual nature of events, leaving many observers and scientists wondering what’s next.<br><br>Regarding faith, Jesus asks the following question in Luke 18:8: “Nevertheless, when the Son of Man cometh, shall He find faith on the earth?” When He spoke to Jairus concerning the news that his daughter had died, Jesus said, “Be not afraid, only believe.” To believe when the world is uncertain, antagonistic, and even mocking, takes unusual faith and courage.<br><br>Today, as never before, we can look at the challenges still remaining to spread the Gospel to every nation, kindred, tribe and people and see that humanly speaking, this is not an easy task. The Lord is calling us to unusual action. He is asking that we be willing to go for Him, to do for Him, and to sacrifice for Him. He has promised us that if we are faithful even unto death, He will give us a crown of life.<br><br>The question remains: are we willing and ready to go about God’s business in an unusual way? Or are we satisfied with the way things are?  <br><br>ASI’s 2018 national convention in Orlando, Florida, will focus on Business Unusual. We hope and pray that you will consider joining us for unusual inspiration, unusual testimonies, and an unusual challenge.&nbsp;</p><p align=\"right\"></p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Over 400 Amazing Blocks\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">... We are living in the last days of earth’s history and have been entrusted with the great commission to spread the gospel of Christ to the entire world. This is not an easy commission; we are not promised a trouble-free job. In John 16:33 Christ said, “These things I have spoken unto you, that in Me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.” Even though we may experience unusual troubles, we can have peace and good cheer because we know the final outcome. Jesus has overcome, and through His strength, we have the power to overcome.<br><br>We predict the weather by looking at the sky. We know summer is coming when we see the trees putting forth leaves. When we consider the abnormal things happening in the world around us, how can we not understand that the coming of Christ is near? Even the secular world has noticed the unusual nature of events, leaving many observers and scientists wondering what’s next.<br><br>Regarding faith, Jesus asks the following question in Luke 18:8: “Nevertheless, when the Son of Man cometh, shall He find faith on the earth?” When He spoke to Jairus concerning the news that his daughter had died, Jesus said, “Be not afraid, only believe.” To believe when the world is uncertain, antagonistic, and even mocking, takes unusual faith and courage.<br><br>Today, as never before, we can look at the challenges still remaining to spread the Gospel to every nation, kindred, tribe and people and see that humanly speaking, this is not an easy task. The Lord is calling us to unusual action. He is asking that we be willing to go for Him, to do for Him, and to sacrifice for Him. He has promised us that if we are faithful even unto death, He will give us a crown of life.<br><br>The question remains: are we willing and ready to go about God’s business in an unusual way? Or are we satisfied with the way things are? <br><br>ASI’s 2018 national convention in Orlando, Florida, will focus on Business Unusual. We hope and pray that you will consider joining us for unusual inspiration, unusual testimonies, and an unusual challenge.&nbsp;</p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Easy and Simple to Use\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                    Cut down the development time with drag-and-drop website builder. Drop the blocks into the page, edit content inline and publish - no technical skills required.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_anchor": "features11-2p",
+          "_isUserblock": true,
+          "_cid": "qKGvV38NDb",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
@@ -351,7 +422,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"80\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ef464c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\"></a></div>\n         <div class=\"mbr-figure pt-5\">\n                <a href=\"https://asiministries.org/membership/categories/\"><img src=\"@PROJECT_PATH@/assets/images/yg-fit.svg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title></a>\n            </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><span style=\"font-weight: normal;\">JOIN</span> <span style=\"font-weight: normal;\">NOW</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        ASI is the official network of Seventh-day Adventist lay professionals involved in business, education, healthcare and supporting ministries who uphold the global mission of the Seventh-day Adventist Church. \n                    </p>\n                </div></div></div></div><div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-white-outline\" href=\"https://asiministries.org/membership/categories/\">LEARN MORE</a></div>\n         <div class=\"mbr-figure pt-5\"></div></section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"80\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ef464c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://www.ASIministries.org\"></a></div>\n         <div class=\"mbr-figure pt-5\">\n                <a href=\"https://asiministries.org/membership/categories/\"><img src=\"@PROJECT_PATH@/assets/images/yg-fit.svg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title></a>\n            </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><span style=\"font-weight: normal;\">JOIN</span> <span style=\"font-weight: normal;\">NOW</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    ASI\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        ASI is the official network of Seventh-day Adventist lay professionals involved in business, education, healthcare and supporting ministries who uphold the global mission of the Seventh-day Adventist Church. \n                    </p>\n                </div></div></div></div><div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-white-outline\" href=\"https://asiministries.org/membership/categories/\">LEARN MORE</a></div>\n         <div class=\"mbr-figure pt-5\"></div></section>",
           "_cid": "qIUkL0CFdL",
           "_anchor": "header4-1f",
           "_PHPplaceholders": [],

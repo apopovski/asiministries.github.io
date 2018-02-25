@@ -1524,29 +1524,86 @@ body {
   padding-bottom: 45px;
   background-image: url("../../../assets/images/3am-banner-1.jpg");
 }
-.cid-qKpnQn9k5e {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.cid-qKGvV38NDb {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-qKpnQn9k5e .line {
-  background-color: #cccccc;
-  color: #cccccc;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-qKpnQn9k5e .section-text {
-  padding: 2rem 0;
+.cid-qKGvV38NDb h2 {
   text-align: left;
 }
-.cid-qKpnQn9k5e .inner-container {
-  margin: 0 auto;
+.cid-qKGvV38NDb h4 {
+  text-align: left;
+  font-weight: 500;
 }
-@media (max-width: 768px) {
-  .cid-qKpnQn9k5e .inner-container {
-    width: 100% !important;
+.cid-qKGvV38NDb p {
+  color: #767676;
+  text-align: left;
+}
+.cid-qKGvV38NDb .aside-content {
+  flex-basis: 100%;
+}
+.cid-qKGvV38NDb .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  word-break: break-word;
+}
+.cid-qKGvV38NDb .media {
+  margin: initial;
+  align-items: center;
+}
+.cid-qKGvV38NDb .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.cid-qKGvV38NDb .card-img {
+  padding-right: 2rem;
+  width: auto;
+}
+.cid-qKGvV38NDb .card-img span {
+  font-size: 72px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-qKGvV38NDb .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
+  .cid-qKGvV38NDb .media-container-row {
+    -webkit-flex-direction: row-reverse;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qKGvV38NDb .mbr-figure {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }
+  .cid-qKGvV38NDb .media-container-row {
+    -webkit-flex-direction: column-reverse;
+  }
+}
+@media (max-width: 300px) {
+  .cid-qKGvV38NDb .card-img span {
+    font-size: 40px !important;
+  }
+}
+.cid-qKGvV38NDb .mbr-text {
+  color: #4f4943;
+}
+.cid-qKGvV38NDb H2 {
+  color: #ffffff;
+}
+.cid-qKGvV38NDb P {
+  color: #232323;
 }
 .cid-qIUkL0CFdL {
   padding-top: 0px;
